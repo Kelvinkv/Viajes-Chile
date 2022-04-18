@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.div-img {
+    max-width: 2.5%;
+
+}
+
+.div-img img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-viajes p {
+    margin-left: 10px;
+    margin-bottom: -1px;
+    color: white;
+}
+
+.navbar-nav {
+    font-family: 'Open Sans', sans-serif;
+ }
+  
