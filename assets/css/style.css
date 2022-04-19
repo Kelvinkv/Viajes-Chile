@@ -76,11 +76,11 @@ h3 {
     text-align: center;
     font-size:2.5em;
     vertical-align: middle;
-    padding-top: 300px;
+    padding-top: 50px;
   }
   
 h4 {
-  color: white!important;
+  color: white;
   font-size: 1.5em;
 }
 
@@ -118,4 +118,8 @@ h4 {
     font-size: 150%;
     margin: 0 auto;
     margin-right: 10px;
+}
+
+form {
+    margin: 50px;
 }
