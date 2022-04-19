@@ -1,12 +1,14 @@
 * {
     margin: 0;
-    border: 0;
     padding: 0;
+}
+body {
+    color: #000f08;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .div-img {
     max-width: 2.5%;
-
 }
 
 .div-img img {
@@ -23,16 +25,6 @@
 .navbar-nav {
     font-family: 'Open Sans', sans-serif;
  }
-  
-  /* .carousel2 {
-    background-image: url('../img/fondo2.jpeg');
-
-  }
-
-  .carousel3 {
-    background-image: url('../img/fondo3.jpeg');
-
-  } */
 
 .carousel-item {
     height: 65vh;
@@ -123,3 +115,45 @@ h4 {
 form {
     margin: 50px;
 }
+
+
+
+@media screen and (max-width:1200px) {
+    .card {
+      margin-left: 15px;
+      margin-bottom: 23px; 
+    }
+    .navbar-toggler{
+        position: relative;
+    left: 20px;
+      }
+    .foot {
+        position: relative;
+        right: 28px;
+      }
+    .container {
+        max-width:100%;
+        width: 100%;
+    }
+    .col-md-3{
+        width:100%;
+        float:left;
+        margin:0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .div-img {
+        max-width: 10%;
+    }
+    .navbar-bar .ml-auto a {
+        text-align: left;
+    }
+    .texto-viajes {
+        margin-right: 80px;
+    }
+    .fa-2x {
+        margin: 0 0.3em;
+        color: white;
+      }
+  }
