@@ -24,3 +24,98 @@
     font-family: 'Open Sans', sans-serif;
  }
   
+  /* .carousel2 {
+    background-image: url('../img/fondo2.jpeg');
+
+  }
+
+  .carousel3 {
+    background-image: url('../img/fondo3.jpeg');
+
+  } */
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.somos {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+hr { 
+    color: #1798c1;
+    background-color: #1798c1;
+    margin-left: 35px;
+    margin-right: 35px;   
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size:2.5em;
+    vertical-align: middle;
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+  
+h3 {
+    color: white;
+    text-align: center;
+    font-size:2.5em;
+    vertical-align: middle;
+    padding-top: 300px;
+  }
+  
+h4 {
+  color: white!important;
+  font-size: 1.5em;
+}
+
+.textos {
+    color: white;
+    text-align: left;
+}
+
+.fa-plane {
+    color: white;
+    background-color:#1798c1;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-right: 10px;
+    
+  }
+  
+.fa-car {
+    color: white;
+    background-color:#1798c1;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-right: 10px;
+  }
+  
+.fa-anchor {
+    color: white;
+    background-color:#1798c1;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-right: 10px;
+}
